@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "name": "remix-url-shortener",
+  "description": "A simple url generator built with remix.run",
+  "license": "",
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "start": "vercel dev",
+    "generate:prisma": "prisma generate"
+  },
+  "dependencies": {
+    "@prisma/client": "2.26.0",
+    "@remix-run/react": "^0.17.5",
+    "@remix-run/vercel": "^0.17.5",
+    "@vercel/node": "^1.8.3",
+    "nanoid": "^3.1.23",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^6.0.0-beta.0",
+    "remix": "^0.17.5"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^0.17.5",
+    "@types/react": "^17.0.4",
+    "@types/react-dom": "^17.0.4",
+    "prisma": "2.26.0",
+    "typescript": "^4.1.2",
+    "vercel": "^21.2.2"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "sideEffects": false
+}
